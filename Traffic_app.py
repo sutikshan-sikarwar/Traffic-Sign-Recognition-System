@@ -7,7 +7,7 @@ from PIL import Image
 
 app = Flask(__name__)
 
-# Classes of trafic signs
+# Classes of trafic signs for speed
 classes = { 0:'Speed limit (20km/h)',
             1:'Speed limit (30km/h)',
             2:'Speed limit (50km/h)',
